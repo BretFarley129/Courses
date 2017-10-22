@@ -1,0 +1,38 @@
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+#disp table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#disp td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#disp tr:nth-child(even) {
+    background-color: greenyellow;
+}
+
+#wrapper{
+    margin: 0px auto;
+    width:1000px;
+    height: 1000px;
+    background-color: brown;
+}
+
+#header{
+    width:1000px;
+    height: 400px;
+    background-color: green;
+}
+
+#main{
+    width:1000px;
+    height: 600px;
+    background-color: purple;
+}
